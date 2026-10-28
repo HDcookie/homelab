@@ -5,7 +5,7 @@ Self-hosted infrastructure for learning networking, cybersecurity, and DevOps, d
 # Goals
 These are both long term and short term goals I plan to complete using my own homelab
 ### Short term goals
-- Figure out and document the current state after leaving it for several months.  Ensure routing, NAT, wireless AP, etc are configured correctly.
+- Figure out and document the current state after leaving I have left it for several months.  Ensure routing, NAT, wireless AP, etc are configured correctly.
 - Setup a clean, documented install on my main work server.
 - Install a program like Uptime Kuma for a central monitoring system.
 - VPN for remote access.
