@@ -31,4 +31,4 @@ current routes
 - Then, I signed into the router to get it's external IP adress.   
 - Then looking at static licenses in the router, I found the IP for the server, and it also confirmed for me what some of the devices online were.  
 - I then logged onto the AP to verify it's passwords, and saved that and the router's account logins.  
-- TODO: portscan, as well as updating EVERYTHING.  
+- TODO: portscan from outside, investigate main server, and update EVERYTHING.  
