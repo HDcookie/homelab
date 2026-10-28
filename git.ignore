@@ -1,0 +1,10 @@
+# Ignore secret folders
+secret/
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore local config / runtime artifacts
+*.local
+*.log
