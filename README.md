@@ -18,7 +18,21 @@ These are both long term and short term goals I plan to complete using my own ho
 - Local AI model and custom AI harness connected to all of my data and services to keep my personal data centralized.  
 
 # Hardware & Networking
-coming soon...
+### Hardware:
+- NetGear GS110TPv3 8-Port Gigabit Smart Managed Pro Switch with PoE+ and 2 SFP Ports
+- Raspberry pi 4 as a router, running OpenWRT
+- Custom built desktop PC/server with Intel i7-6700, 32GB DDR4, GeForce GTX 1060 6GB, 256GB Samsung SSD, 
+- GL.Net wireless router running in AP mode
+
+### IP's:
+- router's internal IP: 192.168.1.1
+- AP: 192.168.1.113
+- Switch: 192.168.1.202
+- Main server/homelab: 192.168.1.129
 
 # Repo structure
-coming soon...
+/docs is the documentation of what is in my homelab, updated as I go.
+
+/logs is almost like blog posts.  They document every major project I undertake, including the thought behind the plan, the steps I took, issues I faced, how I solved them, and conclusions from the projects.
+
+/configs is where config files such as VM templates and infustructure as code will live.  
