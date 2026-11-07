@@ -5,11 +5,14 @@ Self-hosted infrastructure for learning networking, cybersecurity, and DevOps, d
 # Goals
 These are both long term and short term goals I plan to complete using my own homelab
 ### Short term goals
-- Figure out and document the current state after leaving I have left it for several months.  Ensure routing, NAT, wireless AP, etc are configured correctly.
-- Setup a clean, documented install on my main work server.
 - Install a program like Uptime Kuma for a central monitoring system.
 - VPN for remote access.
-- Minecraft server & jellyfin server, running in docker with infrastructure as code.
+- Reverse Proxy or Tunnel for public access to my internal services (ex. port forwarding my mc server)
+- Minecraft server & jellyfin server
+- Backups for all VM's in a centalized location
+- Create my own docker image for my discord bot.  
+- Setup infrustructure as code?  Either for basic vms, for pre-configured minecraft vms, etc.   
+- Create a Dev server for MC, compleate with a pipeline from my IDE -> test enviorment.  
 ### Long term goals
 - Harden the homelab: firewall, VLAN separation, key-only SSH, etc.
 - Minecraft server network with Kubernetes.
