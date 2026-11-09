@@ -13,3 +13,12 @@
 4. Once I had downloaded the iso, I was able to make my first VM!  I gave it 1cpu and 4gb of ram, and after taking a solid 30 minutes to install it was up!  
 5. I installed puffer panel on the vm, which allows me to manage the minecraft servers through a web panel.  After creating the mc server on the panel, it worked perfect!  I now have my own mc server to use for whatever!  Once I figure out a reverse proxy or tunnel, any of my friends can play on it too!
 6. After port forwarding in my router, anyone on my family's LAN or my persional LAN can connect.  
+7. Before installing uptime kuma, I wanted to create a VM template with a lightweight linux OS as a base for all my applications.  I decided on debian 13, as it appears as the most supported OS with the best performance/least bloat.  After installing the iso, I made sure to install the guest agent for proxmox, cloud-init, as well as ssh, sudo, curl, and other basic commands.  After that I cleaned up old ssh keys and the machine ID so when I cloned it, it wouldn't keep those inportant details.  In hindsight, I think I would've installed docker, and I forgot to install curl.  But that will be for next time.  
+8. With my newly created template, I installed uptime kuma via docker, and added my MC server!  
+
+![alt text](image-1.png)
+
+
+# Conclusion
+Although this was a basic and simple start, I think it laid the foundation for the next projects I have planned.  I already am re-framilarizing myself with linux, and creating a template hopefully is a great first step into IaC, or "Enterprize Virtulization".  
+My next plans are to create my own docker image for my discord bot and successfully deploy it to my homelab!  It should be very simple as it won't require a mounted image.  Next, I think setting up a full CI/CD pipeline for MC mod/plugin development would be a great learning experiance.  
