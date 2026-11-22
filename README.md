@@ -2,23 +2,27 @@
 Self-hosted infrastructure for learning networking, cybersecurity, and DevOps, documented as I build it.
 
 
-# Goals
-These are both long term and short term goals I plan to complete using my own homelab
-### Short term goals
-- Install a program like Uptime Kuma for a central monitoring system.
-- VPN for remote access.
-- Reverse Proxy or Tunnel for public access to my internal services (ex. port forwarding my mc server)
-- Minecraft server & jellyfin server
-- Backups for all VM's in a centalized location
-- Create my own docker image for my discord bot.  
-- Setup infrustructure as code?  Either for basic vms, for pre-configured minecraft vms, etc.   
-- Create a Dev server for MC, compleate with a pipeline from my IDE -> test enviorment.  
-### Long term goals
-- Harden the homelab: firewall, VLAN separation, key-only SSH, etc.
-- Minecraft server network with Kubernetes.
-- Password manager for all my devices. 
-- Custom tuned pi-hole for blocking ads.
-- Local AI model and custom AI harness connected to all of my data and services to keep my personal data centralized.  
+# Goals/Plans
+These are my goals and plans for my own homelab
+
+### Future Projects
+- DNS server for local domain names, split-horizon DNS, and ad blocking.  
+- VPN for remote management, and wiregaurd on a remote VM for public access.  
+- Backup management for my VMs
+- Create my own docker image for my discord bot and deploy it myself.  
+- Self hosted password manager
+- NAS with redundency for backups, jellyfin, and my own persional storage.  
+
+
+### IaC
+My current plan is to use my Minecraft minigame server to test this architecture.  I plan to have nodes that can scale up and down with demand, a custom load balancer, and a CI/CD for configuration files and custom minigame code.  
+
+### Security Audit
+After I get a lot of basic services and systems running on my homelab, I plan to audit the security myself from both the inside and outside, document all findings and vulnerabilities, and then fix them.  I'd imagine this could include a stronger firewall, VLANs, and more.  
+
+
+
+
 
 # Hardware & Networking
 ### Hardware:
